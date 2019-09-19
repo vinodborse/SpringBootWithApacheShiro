@@ -36,14 +36,7 @@ public class UserController {
 	@Autowired
 	private IUserService userAuthenticationService;
 	
-	/*@Autowired
-	private String hashAlgorithmName = null;*/
-	
-	
 	private String hashAlgorithmName = "SHA-256";
-
-	/*@Autowired
-	private Integer hashIterations = 1;*/
 
 	private Integer hashIterations = 512;
 	

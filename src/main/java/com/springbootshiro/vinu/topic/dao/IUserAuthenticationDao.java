@@ -4,7 +4,7 @@ import com.springbootshiro.vinu.topic.models.UserAuthentication;
 
 /**
  * @author Vinod Borse
- * 05-Sep-2017
+ * 19-Sep-2019
  */
 public interface IUserAuthenticationDao {
 	

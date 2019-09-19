@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 /**
  * @author Vinod Borse
- * 05-Sep-2017
+ * 19-Sep-2019
  */
 @Entity
 @Table(name = "user")
@@ -78,6 +78,4 @@ public class UserAuthentication implements Serializable {
   public void setUpdatedAt(Date updatedAt) {
     this.updatedAt = updatedAt;
   }
-
 }
-

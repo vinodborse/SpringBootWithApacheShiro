@@ -6,13 +6,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.springbootshiro.vinu.topic.dao.IUserMasterDao;
 import com.springbootshiro.vinu.topic.iservices.IUserMasterService;
-import com.springbootshiro.vinu.topic.models.Actor;
-import com.springbootshiro.vinu.topic.models.Movie;
 import com.springbootshiro.vinu.topic.models.UserMaster;
 
 /**
  * @author Vinod Borse
- * 05-Sep-2017
+ * 19-Sep-2019
  */
 @Service
 public class UserMasterService implements IUserMasterService{
@@ -30,26 +28,4 @@ public class UserMasterService implements IUserMasterService{
 		boolean addUser = userMasterDao.addUser(userId, username, password);
 	    return addUser;
 	}
-	
-	@Override
-	public boolean addMovie(Movie movie) {
-		boolean addmovie = userMasterDao.addMovie(movie);
-	    return addmovie;
-	}
-
-	@Override
-	public boolean addActor(Actor actor) {
-		boolean addActor = userMasterDao.addActor(actor);
-	    return addActor;
-	}
-
-	@Override
-	public Movie findByMovieName(String movieName) {
-		Movie movie = userMasterDao.findByMovieName(movieName);
-	    return movie;
-	}
-	
-	
-	
-	
 }

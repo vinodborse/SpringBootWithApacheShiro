@@ -1,4 +1,4 @@
-package com.springbootshiro.vinu.topic.auth;
+package com.springbootshiro.vinu.topic.shiro.config;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;

@@ -2,7 +2,7 @@ package com.springbootshiro.vinu.topic.exception;
 
 /**
  * @author Vinod Borse
- * 05-Sep-2017
+ * 19-Sep-2019
  */
 public class UserAlreadyExistsException extends RuntimeException {
 	private static final long serialVersionUID = 60979624435191889L;
